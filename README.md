@@ -16,7 +16,7 @@ This project, **Academic Research Assistant**, is a Python-based application des
 
 The directory structure of the project is as follows:
 
-
+```
 academic-research-assistant/
 ├── app.py
 ├── backend/
@@ -34,7 +34,7 @@ academic-research-assistant/
 ├── requirements.txt
 ├── README.md
 └── .env
-
+```
 
 
 
