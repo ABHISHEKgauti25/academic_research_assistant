@@ -17,7 +17,24 @@ This project, **Academic Research Assistant**, is a Python-based application des
 The directory structure of the project is as follows:
 
 
-academic-research-assistant/ ├── app.py # Entry point for running the Streamlit interface ├── backend/ # Backend logic and agents │ ├── init.py │ ├── main.py # Main backend module for initializing agents │ ├── agents/ # Various agent modules │ │ ├── init.py │ │ ├── search_agent.py # Agent to fetch papers from sources like Arxiv │ │ ├── database_agent.py # Agent to handle database interactions │ │ ├── qa_agent.py # Agent to handle Q&A functionalities on papers │ │ └── future_works_agent.py # Agent to manage 'future works' in research │ └── utils/ │ ├── init.py │ └── paper_processing.py # Utility functions for processing paper data ├── requirements.txt # Python dependencies ├── README.md # Project documentation └── .env # Environment variables for sensitive data (excluded in .gitignore)
+academic-research-assistant/
+├── app.py
+├── backend/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── search_agent.py
+│   │   ├── database_agent.py
+│   │   ├── qa_agent.py
+│   │   └── future_works_agent.py
+│   └── utils/
+│       ├── __init__.py
+│       └── paper_processing.py
+├── requirements.txt
+├── README.md
+└── .env
+
 
 
 
