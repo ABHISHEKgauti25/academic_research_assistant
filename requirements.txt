@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+neo4j
+transformers
+sentence-transformers
+requests
+arxiv
+python-dotenv
+PyPDF2
